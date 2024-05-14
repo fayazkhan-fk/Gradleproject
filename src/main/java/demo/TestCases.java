@@ -25,8 +25,8 @@ public class TestCases {
         logs.enable(LogType.BROWSER, Level.ALL);
         logs.enable(LogType.DRIVER, Level.ALL);
         options.setCapability("goog:loggingPrefs", logs);
-        options.add_arguments("start-maximized");
-        options.add_arguments("--disable-blink-features=AutomationControlled");
+        options.addArguments("start-maximized");
+        options.addArguments("--disable-blink-features=AutomationControlled");
 
         // Set path for log file
         System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "chromedriver.log");
