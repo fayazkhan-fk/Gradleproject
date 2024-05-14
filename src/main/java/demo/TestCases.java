@@ -40,7 +40,6 @@ public class TestCases {
         options.addArguments("start-maximized");
         options.addArguments("--disable-blink-features=AutomationControlled");
 
-
         // Set path for log file
         System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "chromedriver.log");
 
